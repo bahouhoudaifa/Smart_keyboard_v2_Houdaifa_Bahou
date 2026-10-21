@@ -28,14 +28,9 @@ L’application s’ouvre dans le navigateur. Saisis un début de phrase dans le
 3. Le message signalant les mots hors vocabulaire a été retiré. Le modèle les remplace en interne par `<unk>` pour poursuivre le calcul des suggestions.
 4. L’en-tête des suggestions indique le modèle utilisé et le nombre de résultats affichés.
 
-## Captures d’écran
+## Lien de deploiment d'application :
 
-Ajoute ici les captures d’exécution de l’application. Par exemple, une capture avec une phrase connue du corpus et une autre avec un mot absent du corpus, pour montrer que les suggestions continuent sans message d’erreur.
-
-<!-- Exemple après ajout des fichiers :
-![Cinq suggestions pour une phrase](docs/captures/suggestions-5-mots.png)
-![Suggestions avec un mot absent du corpus](docs/captures/mot-hors-corpus.png)
--->
+https://smartkeyboardv2houdaifabahou.streamlit.app/
 
 ## Fichiers principaux
 
@@ -48,5 +43,3 @@ Ajoute ici les captures d’exécution de l’application. Par exemple, une capt
 ## Configuration Streamlit (`config.toml`)
 
 Le fichier `config.toml` contient les réglages d’apparence de Streamlit : thème clair, couleur principale bleue, fond gris clair, arrière-plan secondaire blanc, couleur du texte et police sans sérif. Il désactive également la collecte des statistiques d’utilisation (`gatherUsageStats = false`).
-
-**Emplacement à noter :** Streamlit charge automatiquement sa configuration projet depuis `.streamlit/config.toml`. Le fichier du projet est actuellement à la racine sous le nom `config.toml`; pour que ses réglages soient appliqués au lancement, place-le dans le dossier `.streamlit` (`.streamlit/config.toml`).
